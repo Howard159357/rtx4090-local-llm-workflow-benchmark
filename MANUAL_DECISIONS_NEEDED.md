@@ -1,20 +1,16 @@
 # Manual Decisions Needed
 
-The GitHub repository is now public:
+The GitHub repository is public:
 
 https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark
 
-The package is ready for final public review. The following items still require final action or decision:
+The HTML report is published at:
 
-1. Enable GitHub Pages and confirm the final HTML report URL.
+https://howard159357.github.io/rtx4090-local-llm-workflow-benchmark/
 
-2. Convert `CITATION_DRAFT.cff` to `CITATION.cff`.
+Remaining optional decision:
 
-   Use the repository URL:
-
-   `https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark`
-
-3. Decide whether to create a GitHub release tag:
+1. Decide whether to create a GitHub release tag:
 
    `v0.1.0`
 
