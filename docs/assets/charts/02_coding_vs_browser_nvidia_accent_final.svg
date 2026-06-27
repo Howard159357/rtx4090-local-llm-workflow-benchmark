@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect width="1080" height="1350" fill="#FAFBF7"/>
+<text x="70" y="82" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#111827" text-anchor="start">Pass Does Not Mean Usable</text>
+<text x="70" y="132" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#334155" text-anchor="start">Single-run B1 first-pass completion vs browser runtime pass rate.</text>
+<line x1="130.0" y1="250" x2="130.0" y2="900" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="320.0" y1="250" x2="320.0" y2="900" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="510.0" y1="250" x2="510.0" y2="900" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="700.0" y1="250" x2="700.0" y2="900" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="890.0" y1="250" x2="890.0" y2="900" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="130" y1="900.0" x2="890" y2="900.0" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="130" y1="737.5" x2="890" y2="737.5" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="130" y1="575.0" x2="890" y2="575.0" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="130" y1="412.5" x2="890" y2="412.5" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="130" y1="250.0" x2="890" y2="250.0" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<rect x="130" y="250" width="760" height="650" fill="none" stroke="#AEB9A8" stroke-width="1.35"/>
+<text x="130.0" y="934" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="middle">50%</text>
+<text x="320.0" y="934" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="middle">62.5%</text>
+<text x="510.0" y="934" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="middle">75%</text>
+<text x="700.0" y="934" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="middle">87.5%</text>
+<text x="890.0" y="934" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="middle">100%</text>
+<text x="112" y="905.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="end">0%</text>
+<text x="112" y="742.5" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="end">25%</text>
+<text x="112" y="580.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="end">50%</text>
+<text x="112" y="417.5" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="end">75%</text>
+<text x="112" y="255.0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="end">100%</text>
+<text x="510.0" y="974" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#111827" text-anchor="middle">B1 first-pass completion on 23 coding tasks</text>
+<text x="42" y="575.0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#111827" text-anchor="middle" transform="rotate(-90 42 575.0)">Browser runtime strict pass rate</text>
+<circle cx="691.7" cy="575.0" r="12" fill="#4E79A7" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="493.5" cy="412.5" r="12" fill="#76B900" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="427.4" cy="510.0" r="12" fill="#F28E2B" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="361.3" cy="770.0" r="12" fill="#A67DB8" stroke="white" stroke-width="2" opacity="0.94"/>
+<rect x="550" y="599" width="230" height="93.1" rx="8" fill="#FAFBF7" stroke="#B9C8B0" stroke-width="1"/>
+<text x="560" y="625" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="560" dy="0">Qwen3.6 35B</tspan>
+<tspan x="560" dy="23.04">first pass 20/23</tspan>
+<tspan x="560" dy="23.04">browser 3/6</tspan>
+</text>
+<rect x="560" y="324" width="255" height="93.1" rx="8" fill="#FAFBF7" stroke="#B9C8B0" stroke-width="1"/>
+<text x="570" y="350" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="570" dy="0">Qwen3-Coder 30B</tspan>
+<tspan x="570" dy="23.04">first pass 17/23</tspan>
+<tspan x="570" dy="23.04">browser 3/4</tspan>
+</text>
+<rect x="170" y="474" width="225" height="93.1" rx="8" fill="#FAFBF7" stroke="#B9C8B0" stroke-width="1"/>
+<text x="180" y="500" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="180" dy="0">Devstral 24B</tspan>
+<tspan x="180" dy="23.04">first pass 16/23</tspan>
+<tspan x="180" dy="23.04">browser 3/5</tspan>
+</text>
+<rect x="170" y="799" width="225" height="93.1" rx="8" fill="#FAFBF7" stroke="#B9C8B0" stroke-width="1"/>
+<text x="180" y="825" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="180" dy="0">GLM-4.7 Flash</tspan>
+<tspan x="180" dy="23.04">first pass 15/23</tspan>
+<tspan x="180" dy="23.04">browser 1/5</tspan>
+</text>
+<rect x="130" y="1005" width="760" height="132" rx="14" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.35"/>
+<text x="154" y="1038" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#111827" text-anchor="start">Scope note</text>
+<text x="154" y="1066" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#334155" text-anchor="start">Only models with at least three audited browser artifacts are shown as</text>
+<text x="154" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#334155" text-anchor="start">comparable points. Browser samples are small and unequal, so this is</text>
+<text x="154" y="1114" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#334155" text-anchor="start">runtime evidence, not a definitive web ranking.</text>
+<text x="70" y="1304" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#334155" text-anchor="start">RTX 4090 | llama.cpp b9145 CUDA | GGUF | 23 GiB guard | custom task set</text>
+</svg>

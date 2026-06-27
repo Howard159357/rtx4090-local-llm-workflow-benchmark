@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect width="1080" height="1350" fill="#FAFBF7"/>
+<text x="70" y="82" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#111827" text-anchor="start">Where More Context Stopped Helping</text>
+<text x="70" y="132" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#334155" text-anchor="start">B1 first-pass coding completion versus peak VRAM, with context visible.</text>
+<circle cx="96" cy="169" r="7" fill="#4B5563" stroke="white" stroke-width="1.5"/>
+<text x="110" y="175" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">solid dot = completed under 23 GiB guard</text>
+<circle cx="406" cy="169" r="8" fill="#4B5563" stroke="#111827" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="422" y="175" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#334155" text-anchor="start">dotted ring = no-guard 256K supplement</text>
+<line x1="140.0" y1="250" x2="140.0" y2="910" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="292.0" y1="250" x2="292.0" y2="910" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="444.0" y1="250" x2="444.0" y2="910" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="596.0" y1="250" x2="596.0" y2="910" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="748.0" y1="250" x2="748.0" y2="910" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="900.0" y1="250" x2="900.0" y2="910" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="140" y1="910.0" x2="900" y2="910.0" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="140" y1="745.0" x2="900" y2="745.0" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="140" y1="580.0" x2="900" y2="580.0" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="140" y1="415.0" x2="900" y2="415.0" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<line x1="140" y1="250.0" x2="900" y2="250.0" stroke="#CDD8C5" stroke-width="1.25" opacity="0.95"/>
+<rect x="140" y="250" width="760" height="660" fill="none" stroke="#AEB9A8" stroke-width="1.35"/>
+<text x="140.0" y="944" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">14 GiB</text>
+<text x="292.0" y="944" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">16 GiB</text>
+<text x="444.0" y="944" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">18 GiB</text>
+<text x="596.0" y="944" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">20 GiB</text>
+<text x="748.0" y="944" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">22 GiB</text>
+<text x="900.0" y="944" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">24 GiB</text>
+<text x="122" y="915.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="end">0%</text>
+<text x="122" y="750.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="end">25%</text>
+<text x="122" y="585.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="end">50%</text>
+<text x="122" y="420.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="end">75%</text>
+<text x="122" y="255.0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#334155" text-anchor="end">100%</text>
+<text x="520.0" y="984" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#111827" text-anchor="middle">Peak VRAM (GiB)</text>
+<text x="42" y="580.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#111827" text-anchor="middle" transform="rotate(-90 42 580.0)">B1 first-pass completion rate</text>
+<circle cx="346.0" cy="393.5" r="11" fill="#76B900" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="415.2" cy="393.5" r="11" fill="#76B900" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="550.9" cy="393.5" r="11" fill="#76B900" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="835.6" cy="393.5" r="13" fill="#76B900" stroke="#111827" stroke-width="2.2" stroke-dasharray="3 2" opacity="0.96"/>
+<circle cx="479.9" cy="364.8" r="11" fill="#4E79A7" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="498.8" cy="336.1" r="11" fill="#4E79A7" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="525.5" cy="336.1" r="11" fill="#4E79A7" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="602.7" cy="336.1" r="11" fill="#4E79A7" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="231.7" cy="450.9" r="11" fill="#F28E2B" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="351.5" cy="422.2" r="11" fill="#F28E2B" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="570.0" cy="422.2" r="11" fill="#F28E2B" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="835.7" cy="422.2" r="13" fill="#F28E2B" stroke="#111827" stroke-width="2.2" stroke-dasharray="3 2" opacity="0.96"/>
+<circle cx="309.8" cy="565.7" r="11" fill="#A67DB8" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="347.7" cy="565.7" r="11" fill="#A67DB8" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="427.4" cy="565.7" r="11" fill="#A67DB8" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="597.2" cy="565.7" r="11" fill="#A67DB8" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="496.2" cy="594.3" r="11" fill="#5DA5A4" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="502.6" cy="565.7" r="11" fill="#5DA5A4" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="521.3" cy="565.7" r="11" fill="#5DA5A4" stroke="white" stroke-width="2" opacity="0.94"/>
+<circle cx="565.9" cy="565.7" r="11" fill="#5DA5A4" stroke="white" stroke-width="2" opacity="0.94"/>
+<rect x="144" y="307" width="300" height="47.0" rx="8" fill="#FAFBF7" stroke="#B9C8B0" stroke-width="1"/>
+<text x="154" y="333" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="154" dy="0">Qwen3-Coder 32K-256K · 18/23</tspan>
+</text>
+<rect x="272" y="460" width="280" height="47.0" rx="8" fill="#FAFBF7" stroke="#B9C8B0" stroke-width="1"/>
+<text x="282" y="486" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="282" dy="0">Devstral 64K-256K · 17/23</tspan>
+</text>
+<rect x="590" y="277" width="300" height="47.0" rx="8" fill="#FAFBF7" stroke="#B9C8B0" stroke-width="1"/>
+<text x="600" y="303" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="600" dy="0">Qwen3.6 64K-256K · 20/23</tspan>
+</text>
+<rect x="580" y="501" width="310" height="47.0" rx="8" fill="#FAFBF7" stroke="#B9C8B0" stroke-width="1"/>
+<text x="590" y="527" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="590" dy="0">Nemotron Omni 64K-256K · 12/23</tspan>
+</text>
+<rect x="210" y="594" width="245" height="47.0" rx="8" fill="#FAFBF7" stroke="#B9C8B0" stroke-width="1"/>
+<text x="220" y="620" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="220" dy="0">GLM 32K-256K · 12/23</tspan>
+</text>
+<rect x="70" y="1018" width="940" height="174" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="94" y="1056" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" fill="#111827" text-anchor="start">Observed deployment lesson</text>
+<text x="94" y="1088" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#334155" text-anchor="start">Solid points are under the 23 GiB guard; dotted 256K points are no-guard</text>
+<text x="94" y="1118" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#334155" text-anchor="start">supplemental runs. Longer context did not improve B1 first-pass completion here.</text>
+<text x="70" y="1304" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#334155" text-anchor="start">RTX 4090 | llama.cpp b9145 CUDA | GGUF | 23 GiB guard plus no-guard 256K supplement | custom task set</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect width="1080" height="1350" fill="#FAFBF7"/>
+<text x="70" y="82" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#111827" text-anchor="start">First Pass Is Not Repair Loop</text>
+<text x="70" y="132" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#4B5563" text-anchor="start">B1 first pass, B2 repair loop, and n=3 answer different deployment questions.</text>
+<rect x="70" y="225" width="940" height="218" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="94" y="263" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827" text-anchor="start">B1 first pass</text>
+<text x="100" y="326" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#4E79A7" text-anchor="start">20/23</text>
+<text x="390" y="316" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#111827" text-anchor="start">Qwen3.6 35B</text>
+<text x="390" y="356" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="390" dy="0">One attempt, no repair, single-run coding</tspan>
+<tspan x="390" dy="26.88">leaderboard.</tspan>
+</text>
+<rect x="70" y="474" width="940" height="230" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="94" y="512" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827" text-anchor="start">3-run B1 first-pass repeat counts</text>
+<text x="100" y="578" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#76B900" text-anchor="start">18/23 · 18/23 · 18/23</text>
+<text x="565" y="568" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#111827" text-anchor="start">Qwen3-Coder 30B</text>
+<text x="565" y="608" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="565" dy="0">Tasks passed across three</tspan>
+<tspan x="565" dy="26.88">B1 first-pass runs.</tspan>
+</text>
+<rect x="70" y="725" width="940" height="230" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="94" y="763" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827" text-anchor="start">B2 repair loop</text>
+<text x="100" y="826" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#76B900" text-anchor="start">23/23</text>
+<text x="390" y="816" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#111827" text-anchor="start">Qwen3-Coder 30B</text>
+<text x="390" y="856" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="390" dy="0">Task counted when it passed in at least 2 of 3</tspan>
+<tspan x="390" dy="26.88">repaired runs after one repair round.</tspan>
+</text>
+<rect x="70" y="980" width="940" height="250" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="94" y="1018" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827" text-anchor="start">Important comparison rule</text>
+<text x="100" y="1052" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#111827" text-anchor="start">
+<tspan x="100" dy="0">Do not merge these into one ranking axis.</tspan>
+<tspan x="100" dy="25.6">B1 first pass measures first-answer quality.</tspan>
+<tspan x="100" dy="25.6">B2 repair loop measures recovery after feedback.</tspan>
+<tspan x="100" dy="25.6">n=3 here is a repeatability signal, not statistical significance.</tspan>
+</text>
+<text x="100" y="1188" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#4B5563" text-anchor="start">Equal aggregate counts do not prove identical task-level outcomes.</text>
+<text x="70" y="1304" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4B5563" text-anchor="start">RTX 4090 | llama.cpp b9145 CUDA | GGUF | 23 GiB guard | custom task set</text>
+</svg>

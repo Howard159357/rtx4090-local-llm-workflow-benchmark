@@ -1,0 +1,10 @@
+display_model,model,v1_pass,v2_pass,audited,failed_v2
+Qwen3.6-35B-A3B IQ4_XS,qwen36-35b-a3b-iq4xs,4,3,6,3
+Qwen3-Coder-30B-A3B IQ4_XS,qwen3-coder-30b-a3b-iq4xs,4,3,4,1
+Devstral Small 2 24B Q4_K_M,devstral-small2-24b-q4km,5,3,5,2
+GLM-4.7-Flash IQ4_XS,glm-4.7-flash-iq4xs,5,1,5,4
+NVIDIA Nemotron Omni 30B IQ4_XS,nemotron3-nano-omni-30b-a3b-reasoning-iq4xs,0,0,2,2
+Nemotron-3-Nano-30B-A3B IQ4_XS,nemotron3-nano-30b-a3b-iq4xs,0,0,1,1
+gpt-oss-20b MXFP4,gpt-oss-20b-mxfp4,0,0,0,0
+DeepSeek-Coder-V2-Lite Q4_K_M,deepseek-coder-v2-lite-q4km,1,1,1,0
+Gemma4-31B Vision Q4_K_XL,gemma4-31b-it-qat-q4kxl,0,0,0,0

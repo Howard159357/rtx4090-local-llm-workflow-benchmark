@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect width="1080" height="1350" fill="#FAFBF7"/>
+<text x="70" y="82" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="70" dy="0">What Actually Worked on My RTX 4090?</tspan>
+</text>
+<text x="70" y="132" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="70" dy="0">A local model-routing study, not a universal leaderboard.</tspan>
+</text>
+<rect x="70" y="210" width="940" height="150" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<circle cx="122" cy="284" r="34" fill="#76B900"/>
+<text x="122" y="293" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="white" text-anchor="middle">1</text>
+<text x="180" y="268" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="180" dy="0">B1 first pass</tspan>
+</text>
+<text x="180" y="304" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="180" dy="0">23 coding tasks, one attempt, no repair.</tspan>
+</text>
+<rect x="70" y="388" width="940" height="150" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<circle cx="122" cy="462" r="34" fill="#76B900"/>
+<text x="122" y="471" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="white" text-anchor="middle">2</text>
+<text x="180" y="446" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="180" dy="0">B2 repair loop</tspan>
+</text>
+<text x="180" y="482" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="180" dy="0">One repair round using validation feedback.</tspan>
+</text>
+<rect x="70" y="566" width="940" height="150" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<circle cx="122" cy="640" r="34" fill="#76B900"/>
+<text x="122" y="649" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="white" text-anchor="middle">3</text>
+<text x="180" y="624" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="180" dy="0">Browser Runtime Audit</tspan>
+</text>
+<text x="180" y="660" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="180" dy="0">Runtime checks for completed web/game artifacts.</tspan>
+</text>
+<rect x="70" y="744" width="940" height="150" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<circle cx="122" cy="818" r="34" fill="#76B900"/>
+<text x="122" y="827" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="white" text-anchor="middle">4</text>
+<text x="180" y="802" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="180" dy="0">Vision extraction</tspan>
+</text>
+<text x="180" y="838" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="180" dy="0">Six synthetic fictional UI screenshots.</tspan>
+</text>
+<rect x="70" y="922" width="940" height="150" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<circle cx="122" cy="996" r="34" fill="#76B900"/>
+<text x="122" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="white" text-anchor="middle">5</text>
+<text x="180" y="980" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="180" dy="0">Context / VRAM</tspan>
+</text>
+<text x="180" y="1016" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="180" dy="0">32K to 256K sweep under a 23 GiB guard.</tspan>
+</text>
+<rect x="70" y="1118" width="940" height="106" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="94" y="1156" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="94" dy="0">Resulting decision</tspan>
+</text>
+<text x="94" y="1182" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111827" text-anchor="start">
+<tspan x="94" dy="0">Choose by workflow role: first-pass coding, repair-loop coding, browser</tspan>
+<tspan x="94" dy="29.44">QA, vision extraction, and VRAM budget.</tspan>
+</text>
+<text x="70" y="1304" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="70" dy="0">RTX 4090 | llama.cpp b9145 CUDA | GGUF | 23 GiB guard | custom task set</tspan>
+</text>
+</svg>

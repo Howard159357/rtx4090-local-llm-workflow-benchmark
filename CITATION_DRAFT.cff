@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this benchmark package, charts, or processed summaries, please cite it as below."
+title: "RTX 4090 Local LLM Workflow Benchmark"
+authors:
+  - family-names: "Liu"
+    given-names: "Chuan-Hao"
+year: 2026
+license: "MIT AND CC-BY-4.0"
+version: "v0.1.0"

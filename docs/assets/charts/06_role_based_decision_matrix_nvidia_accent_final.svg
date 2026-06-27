@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect width="1080" height="1350" fill="#FAFBF7"/>
+<text x="70" y="82" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#111827" text-anchor="start">How I Would Route the Stack Today</text>
+<text x="70" y="132" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#4B5563" text-anchor="start">A role-based local stack, not one model for everything.</text>
+<text x="85" y="220" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#4B5563" text-anchor="start">Workflow</text>
+<text x="330" y="220" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#4B5563" text-anchor="start">Candidate / Layer</text>
+<text x="565" y="220" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#4B5563" text-anchor="start">Observed evidence</text>
+<text x="772" y="220" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#4B5563" text-anchor="start">Caveat</text>
+<rect x="60" y="250" width="960" height="120" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="85" y="295" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="85" dy="0">First-pass coding</tspan>
+</text>
+<text x="330" y="292" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#4E79A7" text-anchor="start">Qwen3.6 35B</text>
+<text x="565" y="290" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="565" dy="0">20/23 B1 first pass</tspan>
+</text>
+<text x="772" y="288" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="772" dy="0">Single hardware and</tspan>
+<tspan x="772" dy="20.48">benchmark setup.</tspan>
+</text>
+<rect x="60" y="386" width="960" height="126" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="85" y="431" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="85" dy="0">Repair loop</tspan>
+</text>
+<text x="330" y="428" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#76B900" text-anchor="start">Qwen3-Coder 30B</text>
+<text x="565" y="426" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="565" dy="0">23/23 tasks in 2+</tspan>
+<tspan x="565" dy="23.04">of 3 repaired runs</tspan>
+</text>
+<text x="772" y="424" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="772" dy="0">Not autonomous agent</tspan>
+<tspan x="772" dy="20.48">proof.</tspan>
+</text>
+<rect x="60" y="528" width="960" height="126" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="85" y="573" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="85" dy="0">Non-Qwen option</tspan>
+</text>
+<text x="330" y="570" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#F28E2B" text-anchor="start">Devstral 24B</text>
+<text x="565" y="568" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="565" dy="0">17/23 B1 first pass;</tspan>
+<tspan x="565" dy="23.04">20/23 B2 repair loop</tspan>
+</text>
+<text x="772" y="566" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="772" dy="0">Different strengths;</tspan>
+<tspan x="772" dy="20.48">verify on your code.</tspan>
+</text>
+<rect x="60" y="670" width="960" height="126" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="85" y="715" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="85" dy="0">Vision extraction</tspan>
+</text>
+<text x="330" y="712" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#F28E2B" text-anchor="start">Devstral 24B</text>
+<text x="330" y="742" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#D6A800" text-anchor="start">Qwen3VL 8B</text>
+<text x="565" y="710" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="565" dy="0">6/6 extraction</tspan>
+</text>
+<text x="772" y="708" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="772" dy="0">Six synthetic UI</tspan>
+<tspan x="772" dy="20.48">screenshots; not</tspan>
+<tspan x="772" dy="20.48">vision-to-web.</tspan>
+</text>
+<rect x="60" y="812" width="960" height="142" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="85" y="857" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="85" dy="0">Next experiment</tspan>
+</text>
+<text x="330" y="854" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#111827" text-anchor="start">OpenClaw</text>
+<text x="565" y="852" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="565" dy="0">End-to-end</tspan>
+<tspan x="565" dy="23.04">integration</tspan>
+</text>
+<text x="772" y="850" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="772" dy="0">No end-to-end</tspan>
+<tspan x="772" dy="20.48">OpenClaw benchmark</tspan>
+<tspan x="772" dy="20.48">completed in this</tspan>
+<tspan x="772" dy="20.48">evidence pack.</tspan>
+</text>
+<text x="70" y="1024" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#111827" text-anchor="start">Observation, engineering interpretation, and personal workflow choice are</text>
+<text x="70" y="1051" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#111827" text-anchor="start">separate. The full repository and report include hashes, provenance, caveats, and</text>
+<text x="70" y="1078" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#111827" text-anchor="start">raw evidence.</text>
+<text x="70" y="1304" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4B5563" text-anchor="start">RTX 4090 | llama.cpp b9145 CUDA | GGUF | 23 GiB guard | custom task set</text>
+</svg>

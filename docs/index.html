@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RTX 4090 Local LLM Workflow Benchmark</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #FAFBF7; color: #0B1F33; line-height: 1.55; }
+    main { max-width: 1120px; margin: 0 auto; padding: 36px 24px 64px; }
+    h1 { font-size: 40px; margin: 0 0 8px; }
+    h2 { margin-top: 36px; }
+    .sub { color: #4B5563; font-size: 20px; margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    .card { background: white; border: 1px solid #B9C8B0; border-radius: 12px; padding: 18px; }
+    .chart { background: white; border: 1px solid #B9C8B0; border-radius: 12px; padding: 12px; }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: #245A9C; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>RTX 4090 Local LLM Workflow Benchmark</h1>
+  <p class="sub">A practical local workflow study for coding, repair loops, browser runtime validation, vision extraction, and context and VRAM limits.</p>
+
+  <section>
+    <h2>Executive Summary</h2>
+    <p>This package evaluates local GGUF models on one RTX 4090 workstation through a llama.cpp based local harness. The goal is practical model routing, not a universal public leaderboard.</p>
+  </section>
+
+  <section>
+    <h2>Key Findings</h2>
+    <div class="grid">
+      <div class="card"><strong>First-pass and repair-loop coding are different signals.</strong> A model that does well on B1 is not automatically the best B2 repair-loop choice.</div>
+      <div class="card"><strong>Passing a task validator is not the same as browser usability.</strong> Browser Runtime Audit checks completed browser-openable artifacts after validation.</div>
+      <div class="card"><strong>Vision extraction and screenshot-to-web are separate capabilities.</strong> Strong screenshot reading did not reliably imply usable web generation.</div>
+      <div class="card"><strong>More context did not always help.</strong> Context length behaved like an engineering budget under the RTX 4090 VRAM constraint.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Practical Routing Summary</h2>
+    <p>The routing matrix summarizes observed choices under this single hardware and task setup. OpenClaw-style end-to-end integration remains a future experiment, not a completed benchmark.</p>
+    <div class="chart"><img src="assets/charts/06_role_based_decision_matrix_nvidia_accent_final.png" alt="Role-based routing matrix"></div>
+  </section>
+
+  <section>
+    <h2>Main Charts</h2>
+    <div class="grid">
+      <div class="chart"><img src="assets/charts/01_experiment_map_nvidia_accent_final.png" alt="Experiment map"></div>
+      <div class="chart"><img src="assets/charts/03_first_pass_repair_repeatability_nvidia_accent_final.png" alt="First pass and repair repeatability"></div>
+      <div class="chart"><img src="assets/charts/02_coding_vs_browser_nvidia_accent_final.png" alt="Coding versus browser runtime pass rate"></div>
+      <div class="chart"><img src="assets/charts/05_vision_extraction_vs_generation_nvidia_accent_final.png" alt="Vision extraction versus screenshot-to-web"></div>
+      <div class="chart"><img src="assets/charts/04_completion_vs_vram_nvidia_accent_final.png" alt="Completion versus VRAM"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Evidence Links</h2>
+    <ul>
+      <li><a href="executive_summary.md">Executive summary</a></li>
+      <li><a href="methodology.md">Methodology</a></li>
+      <li><a href="validation_ledger.md">Validation ledger</a></li>
+      <li><a href="task_catalog.md">Task catalog</a></li>
+      <li><a href="task_difficulty_taxonomy.md">Task difficulty taxonomy</a></li>
+      <li><a href="context_vram_attempt_matrix.md">Context and VRAM attempt matrix</a></li>
+      <li><a href="model_cards_and_hashes.md">Model cards and hashes</a></li>
+      <li><a href="run_provenance.md">Run provenance</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Limitations</h2>
+    <p>This is one workstation, one benchmark harness, one custom synthetic task set, and one practical scoring protocol. Results can change with runtime settings, model quantization, prompts, validators, GPU memory policy, and repair strategy.</p>
+  </section>
+</main>
+</body>
+</html>

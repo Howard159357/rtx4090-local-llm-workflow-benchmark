@@ -1,0 +1,7 @@
+rank,model,model_id,context,completed_rounds,vision_majority,vision_majority_pct,vision_all_three,vision_runs,vision_to_web_runs,vision_to_web_majority,peak_vram_mib,status,note
+1,Devstral Small 2 24B Q4_K_M,devstral-small2-24b-q4km-vision,32K,3/3,6/6,100.0,6/6,6/6/6,0/0/0,0/1,16712,complete,Stability-checked vision evidence.
+2,Qwen3VL-8B-Instruct Q4_K_M,qwen3vl-8b-instruct-q4km,256K,3/3,6/6,100.0,6/6,6/6/6,0/0/0,0/1,17314,complete,Stability-checked vision evidence.
+3,Qwen3.6-35B-A3B + mmproj,qwen36-35b-a3b-iq4xs-vision,256K,3/3,5/6,83.33,5/6,5/5/5,0/0/0,0/1,21692,complete,Stability-checked vision evidence.
+4,Qwen3-Omni-30B-A3B Q4_K_M,qwen3-omni-30b-a3b-q4km,64K,3/3,5/6,83.33,5/6,5/5/5,0/0/0,0/1,22210,complete,Stability-checked vision evidence.
+5,Gemma4-31B Vision Q4_K_XL,gemma4-31b-it-qat-q4kxl,32K,3/3,4/6,66.67,4/6,4/4/4,0/0/0,0/1,19950,complete,Stability-checked vision evidence.
+6,Phi-4-Multimodal Q4_K_M,phi4-multimodal-q4km,32K,3/3,0/6,0.0,0/6,0/0/0,0/0/0,0/1,5032,complete,Stability-checked vision evidence.
