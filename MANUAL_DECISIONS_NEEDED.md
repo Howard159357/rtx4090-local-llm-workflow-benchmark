@@ -1,12 +1,21 @@
 # Manual Decisions Needed
 
-The package is ready for review. The following items still require user decision before final public publication:
+The GitHub repository is now public:
 
-1. Final GitHub repository URL.
-2. Final GitHub Pages URL.
-3. Whether to convert `CITATION_DRAFT.cff` to `CITATION.cff` after the repository URL is known.
-4. Whether to publish the repository as private first or public directly.
-5. Whether to create a GitHub release tag `v0.1.0`.
+https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark
+
+The package is ready for final public review. The following items still require final action or decision:
+
+1. Enable GitHub Pages and confirm the final HTML report URL.
+
+2. Convert `CITATION_DRAFT.cff` to `CITATION.cff`.
+
+   Use the repository URL:
+
+   `https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark`
+
+3. Decide whether to create a GitHub release tag:
+
+   `v0.1.0`
 
 No company affiliation decision is needed for this package. It is labeled as a personal independent engineering project.
-
