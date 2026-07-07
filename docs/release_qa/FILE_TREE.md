@@ -1,9 +1,10 @@
-# File Tree
+﻿# File Tree
+
+Generated after final public cleanup.
 
 ```text
 .gitignore
-BUILD_AND_LINK_CHECK.md
-CITATION_DRAFT.cff
+CITATION.cff
 CONTENT_LICENSE.md
 data/processed/b1_repeat_summary.csv
 data/processed/b2_repair_summary.csv
@@ -48,6 +49,17 @@ docs/index.html
 docs/limitations.md
 docs/methodology.md
 docs/model_cards_and_hashes.md
+docs/release_qa/BUILD_AND_LINK_CHECK.md
+docs/release_qa/EXCLUDED_FILES.md
+docs/release_qa/FILE_TREE.md
+docs/release_qa/FINAL_PUBLIC_RELEASE_WORDING_PATCH_QA.md
+docs/release_qa/GITHUB_RELEASE_MANIFEST.md
+docs/release_qa/LICENSE_FINALIZATION_QA.md
+docs/release_qa/PUBLIC_WORDING_SCAN.md
+docs/release_qa/PUBLICATION_READY_CHECKLIST.md
+docs/release_qa/README.md
+docs/release_qa/RELEASE_NOTES.md
+docs/release_qa/ZIP_POSIX_PATH_QA.md
 docs/reproducibility.md
 docs/run_provenance.md
 docs/task_catalog.md
@@ -55,13 +67,7 @@ docs/task_difficulty_taxonomy.md
 docs/task_length_summary.md
 docs/validation_ledger.md
 docs/vision_and_screenshot_to_web.md
-EXCLUDED_FILES.md
-GITHUB_RELEASE_MANIFEST.md
 LICENSE
-LICENSE_FINALIZATION_QA.md
-MANUAL_DECISIONS_NEEDED.md
-PUBLIC_WORDING_SCAN.md
-PUBLICATION_READY_CHECKLIST.md
 README.md
 scripts/README.md
 scripts/reproduce_browser_runtime_audit.md

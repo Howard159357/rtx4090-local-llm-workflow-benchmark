@@ -32,7 +32,7 @@ The evidence supports workflow-level decisions:
 - `LICENSE`: MIT License for code and scripts.
 - `CONTENT_LICENSE.md`: CC BY 4.0 content and processed data license.
 - `CITATION_DRAFT.cff`: draft citation metadata pending final repository URL.
-- `MANUAL_DECISIONS_NEEDED.md`: remaining publication decisions.
+- `docs/release_qa/RELEASE_NOTES.md`: public release notes.
 
 ## Included Evidence Tables
 
@@ -89,4 +89,4 @@ This release is staged from the local public patch package and final benchmark e
 
 Status: ready for review.
 
-Remaining publication decisions are listed in `MANUAL_DECISIONS_NEEDED.md`.
+Public release notes are listed in `docs/release_qa/RELEASE_NOTES.md`.
