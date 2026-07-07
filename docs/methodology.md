@@ -35,8 +35,6 @@ n=3 is practical repeatability evidence. It is not a statistical significance cl
 
 Browser Runtime Audit checks completed browser-openable web/game artifacts in a real browser. It complements static validators because a task can pass a validator and still render poorly, throw console errors, or fail interaction checks.
 
-Bridge note: earlier internal files may refer to this layer as Browser Audit v2. Public-facing materials call it Browser Runtime Audit.
-
 ### Vision Extraction
 
 Vision extraction tasks ask a model to interpret synthetic UI screenshots into structured information. This is separate from generating a working website from a screenshot.
