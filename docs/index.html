@@ -5,24 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RTX 4090 Local LLM Workflow Benchmark</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #FAFBF7; color: #0B1F33; line-height: 1.55; }
-    main { max-width: 1120px; margin: 0 auto; padding: 36px 24px 64px; }
-    h1 { font-size: 40px; margin: 0 0 8px; }
-    h2 { margin-top: 36px; }
-    .sub { color: #4B5563; font-size: 20px; margin-top: 0; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
-    .card { background: white; border: 1px solid #B9C8B0; border-radius: 12px; padding: 18px; }
-    .chart { background: white; border: 1px solid #B9C8B0; border-radius: 12px; padding: 12px; }
+    :root {
+      --bg: #FAFBF7;
+      --panel: #FFFFFF;
+      --ink: #0B1F33;
+      --muted: #4B5563;
+      --line: #B9C8B0;
+      --line-soft: #D8E0D2;
+      --accent: #76B900;
+      --link: #245A9C;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; background: var(--bg); color: var(--ink); line-height: 1.55; }
+    main { max-width: 1160px; margin: 0 auto; padding: 42px 24px 64px; }
+    h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.02; margin: 0 0 12px; letter-spacing: 0; }
+    h2 { margin: 42px 0 16px; font-size: clamp(26px, 3.2vw, 34px); letter-spacing: 0; }
+    h3 { margin: 0 0 10px; font-size: 18px; }
+    p { margin: 0 0 14px; }
+    .sub { color: var(--muted); font-size: clamp(18px, 2.4vw, 22px); max-width: 880px; }
+    .hero { border-bottom: 1px solid var(--line); padding-bottom: 30px; }
+    .badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0 0; }
+    .badge { border: 1px solid var(--line); background: var(--panel); border-radius: 999px; color: var(--muted); font-size: 14px; padding: 6px 11px; }
+    .quicklinks { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0 0; }
+    .button { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); font-weight: 700; padding: 10px 13px; text-decoration: none; }
+    .button.primary { border-color: var(--accent); box-shadow: inset 4px 0 0 var(--accent); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px; }
+    .card p:last-child { margin-bottom: 0; }
+    .chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+    .chart { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+    .chart.full { grid-column: 1 / -1; }
+    .chart-caption { color: var(--muted); font-size: 14px; margin: 10px 4px 2px; }
+    .evidence-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+    .evidence-list { list-style: none; margin: 0; padding: 0; }
+    .evidence-list li { border-top: 1px solid var(--line-soft); }
+    .evidence-list li:first-child { border-top: 0; }
+    .evidence-list a { display: block; padding: 9px 0; font-weight: 700; }
+    .note { border-left: 4px solid var(--accent); background: var(--panel); padding: 14px 16px; color: var(--muted); }
     img { max-width: 100%; height: auto; display: block; }
-    a { color: #245A9C; }
-    footer { margin-top: 44px; padding-top: 22px; border-top: 1px solid #B9C8B0; color: #4B5563; font-size: 14px; }
+    a { color: var(--link); }
+    footer { margin-top: 44px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
     footer p { margin: 6px 0; }
+    @media (max-width: 640px) {
+      main { padding: 30px 18px 52px; }
+      .chart-grid { grid-template-columns: 1fr; }
+      .button { width: 100%; justify-content: center; }
+    }
   </style>
 </head>
 <body>
 <main>
-  <h1>RTX 4090 Local LLM Workflow Benchmark</h1>
-  <p class="sub">A practical local workflow study for coding, repair loops, browser runtime validation, vision extraction, and context and VRAM limits.</p>
+  <section class="hero">
+    <h1>RTX 4090 Local LLM Workflow Benchmark</h1>
+    <p class="sub">A practical local workflow study for coding, repair loops, browser runtime validation, vision extraction, and context and VRAM limits.</p>
+    <div class="badges" aria-label="Release scope">
+      <span class="badge">v0.1.0 public evidence release</span>
+      <span class="badge">Single RTX 4090 workstation</span>
+      <span class="badge">llama.cpp + GGUF</span>
+      <span class="badge">23 GiB VRAM guard</span>
+      <span class="badge">Custom synthetic tasks</span>
+    </div>
+    <div class="quicklinks" aria-label="Primary links">
+      <a class="button primary" href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark">GitHub Repo</a>
+      <a class="button" href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/releases/tag/v0.1.0">v0.1.0 Release</a>
+      <a class="button" href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/blob/main/docs/methodology.md">Methodology</a>
+    </div>
+  </section>
 
   <section>
     <h2>Executive Summary</h2>
@@ -47,27 +95,44 @@
 
   <section>
     <h2>Main Charts</h2>
-    <div class="grid">
-      <div class="chart"><img src="assets/charts/01_experiment_map_nvidia_accent_final.png" alt="Experiment map"></div>
-      <div class="chart"><img src="assets/charts/03_first_pass_repair_repeatability_nvidia_accent_final.png" alt="First pass and repair repeatability"></div>
-      <div class="chart"><img src="assets/charts/02_coding_vs_browser_nvidia_accent_final.png" alt="Coding versus browser runtime pass rate"></div>
-      <div class="chart"><img src="assets/charts/05_vision_extraction_vs_generation_nvidia_accent_final.png" alt="Vision extraction versus screenshot-to-web"></div>
-      <div class="chart"><img src="assets/charts/04_completion_vs_vram_nvidia_accent_final.png" alt="Completion versus VRAM"></div>
+    <div class="chart-grid">
+      <div class="chart"><img src="assets/charts/01_experiment_map_nvidia_accent_final.png" alt="Experiment map"><p class="chart-caption">Study map and evaluation layers.</p></div>
+      <div class="chart"><img src="assets/charts/03_first_pass_repair_repeatability_nvidia_accent_final.png" alt="First pass and repair repeatability"><p class="chart-caption">B1, B2, and repeatability answer different deployment questions.</p></div>
+      <div class="chart"><img src="assets/charts/02_coding_vs_browser_nvidia_accent_final.png" alt="Coding versus browser runtime pass rate"><p class="chart-caption">Passing validation is not the same as browser usability.</p></div>
+      <div class="chart"><img src="assets/charts/05_vision_extraction_vs_generation_nvidia_accent_final.png" alt="Vision extraction versus screenshot-to-web"><p class="chart-caption">Vision extraction and screenshot-to-web generation are separate capabilities.</p></div>
+      <div class="chart full"><img src="assets/charts/04_completion_vs_vram_nvidia_accent_final.png" alt="Completion versus VRAM"><p class="chart-caption">Context length behaved like an engineering budget under the RTX 4090 VRAM constraint.</p></div>
     </div>
   </section>
 
   <section>
     <h2>Evidence Links</h2>
-    <ul>
-      <li><a href="executive_summary.md">Executive summary</a></li>
-      <li><a href="methodology.md">Methodology</a></li>
-      <li><a href="validation_ledger.md">Validation ledger</a></li>
-      <li><a href="task_catalog.md">Task catalog</a></li>
-      <li><a href="task_difficulty_taxonomy.md">Task difficulty taxonomy</a></li>
-      <li><a href="context_vram_attempt_matrix.md">Context and VRAM attempt matrix</a></li>
-      <li><a href="model_cards_and_hashes.md">Model cards and hashes</a></li>
-      <li><a href="run_provenance.md">Run provenance</a></li>
-    </ul>
+    <p class="note">Evidence documents open on GitHub so Markdown renders cleanly on desktop and mobile. The source files remain in this repository under <code>docs/</code> and <code>docs/assets/tables/</code>.</p>
+    <div class="evidence-grid">
+      <div class="card">
+        <h3>Read First</h3>
+        <ul class="evidence-list">
+          <li><a href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/blob/main/docs/executive_summary.md">Executive summary</a></li>
+          <li><a href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/blob/main/docs/methodology.md">Methodology</a></li>
+          <li><a href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/blob/main/docs/limitations.md">Limitations</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Evidence Tables</h3>
+        <ul class="evidence-list">
+          <li><a href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/blob/main/docs/validation_ledger.md">Validation ledger</a></li>
+          <li><a href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/blob/main/docs/task_catalog.md">Task catalog</a></li>
+          <li><a href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/tree/main/docs/assets/tables">Processed CSV tables</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Reproducibility</h3>
+        <ul class="evidence-list">
+          <li><a href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/blob/main/docs/context_vram_attempt_matrix.md">Context and VRAM attempt matrix</a></li>
+          <li><a href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/blob/main/docs/model_cards_and_hashes.md">Model cards and hashes</a></li>
+          <li><a href="https://github.com/Howard159357/rtx4090-local-llm-workflow-benchmark/blob/main/docs/run_provenance.md">Run provenance</a></li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section>
