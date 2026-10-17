@@ -1,0 +1,36 @@
+# Model files and large local assets
+*.gguf
+*.safetensors
+*.bin
+models/
+cache/
+
+# Temporary and raw local outputs
+tmp/
+temp/
+runs/raw/
+artifacts/raw/
+results/raw/
+local_paths.txt
+
+# Logs and secrets
+.env
+*.log
+
+# Dependencies and Python cache
+node_modules/
+__pycache__/
+pycache/
+*.pyc
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Archives unless explicitly selected as release artifacts
+*.zip
+
+# Intermediate local publishing outputs
+linkedin_style_trials/
+external_llm_review_package*/

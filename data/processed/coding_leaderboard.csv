@@ -1,0 +1,10 @@
+rank,model,family,context,b1_passed,b1_total,b1_pct,b2_final,peak_vram_mib,cost_per_completed,note
+1,Qwen3.6-35B-A3B IQ4_XS,Qwen,256K,20,23,86.96,20/23,21700,95.19,Best B1 overall; older primary local model.
+2,Qwen3-Coder-30B-A3B IQ4_XS,Qwen Coder,128K,17,23,73.91,22/23,19872,,Formal B2 result; B2 repair n=3 aggregate reaches 23/23.
+3,Devstral Small 2 24B Q4_K_M,Mistral/Devstral,128K,16,23,69.57,20/23,20130,,Strong non-Qwen coding candidate.
+4,GLM-4.7-Flash IQ4_XS,GLM,128K,15,23,65.22,19/23,18206,,"Strong repo/game, weak function."
+5,NVIDIA Nemotron Omni 30B IQ4_XS,NVIDIA,128K,13,23,56.52,17/23,19474,,"Repo-strong, web/game format issues."
+6,Nemotron-3-Nano-30B-A3B IQ4_XS,NVIDIA,256K,13,23,56.52,13/23,18900,122.76,B2 completed on failed tasks; no additional passes.
+7,NVIDIA Nemotron Omni 30B UD-IQ3_S,NVIDIA,32K,12,23,52.17,13/23,20006,,"Smaller Omni quantization; strong repo-edit, weak web/game and vision probe."
+8,gpt-oss-20b MXFP4,OpenAI OSS,256K,10,23,43.48,13/23,14034,,"Most VRAM-efficient 256K baseline; B2 recovered 3 coding tasks."
+9,DeepSeek-Coder-V2-Lite Q4_K_M,DeepSeek,128K,4,23,17.39,6/23,20400,360.59,256K exceeded guard; B2 recovered 2 coding tasks at 128K.

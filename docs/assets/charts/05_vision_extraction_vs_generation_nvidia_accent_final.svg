@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect width="1080" height="1350" fill="#FAFBF7"/>
+<text x="70" y="82" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="70" dy="0">Vision Extraction ≠ Vision-to-Web</tspan>
+</text>
+<text x="70" y="132" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="70" dy="0">Six synthetic UI screenshots are a different task from building a working site.</tspan>
+</text>
+<text x="70" y="252" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" fill="#111827" text-anchor="start">
+<tspan x="70" dy="0">A. Screenshot-to-JSON extraction, task-level majority across three runs</tspan>
+</text>
+<text x="90" y="322" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="90" dy="0">Devstral 24B</tspan>
+</text>
+<rect x="390" y="300" width="430" height="26" rx="13.0" fill="#EEF7E5"/>
+<rect x="390" y="300" width="430.0" height="26" rx="13.0" fill="#F28E2B"/>
+<text x="845" y="321" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#111827" text-anchor="start">6/6</text>
+<text x="90" y="380" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="90" dy="0">Qwen3VL 8B</tspan>
+</text>
+<rect x="390" y="358" width="430" height="26" rx="13.0" fill="#EEF7E5"/>
+<rect x="390" y="358" width="430.0" height="26" rx="13.0" fill="#D6A800"/>
+<text x="845" y="379" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#111827" text-anchor="start">6/6</text>
+<text x="90" y="438" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="90" dy="0">Qwen3.6-35B-A3B + mmproj</tspan>
+</text>
+<rect x="390" y="416" width="430" height="26" rx="13.0" fill="#EEF7E5"/>
+<rect x="390" y="416" width="358.3" height="26" rx="13.0" fill="#4E79A7"/>
+<text x="845" y="437" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#111827" text-anchor="start">5/6</text>
+<text x="90" y="496" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="90" dy="0">Qwen3-Omni 30B</tspan>
+</text>
+<rect x="390" y="474" width="430" height="26" rx="13.0" fill="#EEF7E5"/>
+<rect x="390" y="474" width="358.3" height="26" rx="13.0" fill="#FF9DA7"/>
+<text x="845" y="495" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#111827" text-anchor="start">5/6</text>
+<text x="90" y="554" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="90" dy="0">Gemma4 Vision</tspan>
+</text>
+<rect x="390" y="532" width="430" height="26" rx="13.0" fill="#EEF7E5"/>
+<rect x="390" y="532" width="286.7" height="26" rx="13.0" fill="#B07AA1"/>
+<text x="845" y="553" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#111827" text-anchor="start">4/6</text>
+<text x="90" y="612" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="90" dy="0">Phi-4 MM</tspan>
+</text>
+<rect x="390" y="590" width="430" height="26" rx="13.0" fill="#EEF7E5"/>
+<rect x="390" y="590" width="0.0" height="26" rx="13.0" fill="#C7D4CC"/>
+<text x="845" y="611" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#111827" text-anchor="start">0/6</text>
+<rect x="70" y="690" width="940" height="190" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="94" y="728" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="94" dy="0">B. Vision-to-web repeat</tspan>
+</text>
+<text x="100" y="758" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#111827" text-anchor="start">
+<tspan x="100" dy="0">No listed model achieved a majority pass on the repeated vision-</tspan>
+<tspan x="100" dy="32.0">to-web task.</tspan>
+</text>
+<text x="100" y="828" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="100" dy="0">One-off screenshot-to-web passes are capability signals, not reliability</tspan>
+<tspan x="100" dy="26.88">claims.</tspan>
+</text>
+<rect x="70" y="950" width="940" height="210" rx="18" fill="#FFFFFF" stroke="#B9C8B0" stroke-width="1.45"/>
+<text x="94" y="988" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827" text-anchor="start">
+<tspan x="94" dy="0">Scope note</tspan>
+</text>
+<text x="100" y="1020" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="100" dy="0">The image set contains six synthetic fictional fast-food ordering UI</tspan>
+<tspan x="100" dy="29.44">screenshots. This supports a narrow extraction claim, not broad</tspan>
+<tspan x="100" dy="29.44">multimodal superiority or production UI generation reliability.</tspan>
+</text>
+<text x="70" y="1304" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#4B5563" text-anchor="start">
+<tspan x="70" dy="0">RTX 4090 | llama.cpp b9145 CUDA | GGUF | 23 GiB guard | custom task set</tspan>
+</text>
+</svg>

@@ -1,0 +1,21 @@
+model_id,model,context,context_label,status,runnable,passed,total,pass_pct,delta_from_32k,delta_from_previous_context,peak_vram_mib,best_context_under_guard,recommended_context,note
+qwen3-coder-30b-a3b-iq4xs,Qwen3-Coder-30B-A3B IQ4_XS,32768,32K,task_failures_5,yes,18,23,78.26,0,,17112,32K,32K,Recommended context: smallest context that reached this model's best B1 score.
+qwen3-coder-30b-a3b-iq4xs,Qwen3-Coder-30B-A3B IQ4_XS,65536,64K,task_failures_5,yes,18,23,78.26,0,0,18044,32K,32K,Runnable under 23 GiB guard.
+qwen3-coder-30b-a3b-iq4xs,Qwen3-Coder-30B-A3B IQ4_XS,131072,128K,task_failures_5,yes,18,23,78.26,0,0,19872,32K,32K,Runnable under 23 GiB guard.
+qwen3-coder-30b-a3b-iq4xs,Qwen3-Coder-30B-A3B IQ4_XS,262144,256K,vram_guard_load,no,,,,,,23630,32K,32K,Stopped at load by the 23 GiB VRAM guard.
+qwen36-35b-a3b-iq4xs,Qwen3.6-35B-A3B IQ4_XS,32768,32K,task_failures_4,yes,19,23,82.61,0,,18916,64K,64K,Runnable under 23 GiB guard.
+qwen36-35b-a3b-iq4xs,Qwen3.6-35B-A3B IQ4_XS,65536,64K,task_failures_3,yes,20,23,86.96,1,1,19170,64K,64K,Recommended context: smallest context that reached this model's best B1 score.
+qwen36-35b-a3b-iq4xs,Qwen3.6-35B-A3B IQ4_XS,131072,128K,task_failures_3,yes,20,23,86.96,1,0,19530,64K,64K,Runnable under 23 GiB guard.
+qwen36-35b-a3b-iq4xs,Qwen3.6-35B-A3B IQ4_XS,262144,256K,task_failures_3,yes,20,23,86.96,1,0,20570,64K,64K,Runnable under 23 GiB guard.
+devstral-small2-24b-q4km,Devstral Small 2 24B Q4_K_M,32768,32K,task_failures_7,yes,16,23,69.57,0,,15572,64K,64K,Runnable under 23 GiB guard.
+devstral-small2-24b-q4km,Devstral Small 2 24B Q4_K_M,65536,64K,task_failures_6,yes,17,23,73.91,1,1,17186,64K,64K,Recommended context: smallest context that reached this model's best B1 score.
+devstral-small2-24b-q4km,Devstral Small 2 24B Q4_K_M,131072,128K,task_failures_6,yes,17,23,73.91,1,0,20130,64K,64K,Runnable under 23 GiB guard.
+devstral-small2-24b-q4km,Devstral Small 2 24B Q4_K_M,262144,256K,vram_guard_load,no,,,,,,24088,64K,64K,Stopped at load by the 23 GiB VRAM guard.
+glm-4.7-flash-iq4xs,GLM-4.7-Flash IQ4_XS,32768,32K,task_failures_11,yes,12,23,52.17,0,,16624,32K,32K,Recommended context: smallest context that reached this model's best B1 score.
+glm-4.7-flash-iq4xs,GLM-4.7-Flash IQ4_XS,65536,64K,task_failures_11,yes,12,23,52.17,0,0,17134,32K,32K,Runnable under 23 GiB guard.
+glm-4.7-flash-iq4xs,GLM-4.7-Flash IQ4_XS,131072,128K,task_failures_11,yes,12,23,52.17,0,0,18208,32K,32K,Runnable under 23 GiB guard.
+glm-4.7-flash-iq4xs,GLM-4.7-Flash IQ4_XS,262144,256K,task_failures_11,yes,12,23,52.17,0,0,20496,32K,32K,Runnable under 23 GiB guard.
+nemotron3-nano-omni-30b-a3b-reasoning-iq4xs,NVIDIA Nemotron Omni 30B IQ4_XS,32768,32K,task_failures_12,yes,11,23,47.83,0,,19136,64K,64K,Runnable under 23 GiB guard.
+nemotron3-nano-omni-30b-a3b-reasoning-iq4xs,NVIDIA Nemotron Omni 30B IQ4_XS,65536,64K,task_failures_11,yes,12,23,52.17,1,1,19222,64K,64K,Recommended context: smallest context that reached this model's best B1 score.
+nemotron3-nano-omni-30b-a3b-reasoning-iq4xs,NVIDIA Nemotron Omni 30B IQ4_XS,131072,128K,task_failures_11,yes,12,23,52.17,1,0,19474,64K,64K,Runnable under 23 GiB guard.
+nemotron3-nano-omni-30b-a3b-reasoning-iq4xs,NVIDIA Nemotron Omni 30B IQ4_XS,262144,256K,task_failures_11,yes,12,23,52.17,1,0,20074,64K,64K,Runnable under 23 GiB guard.
