@@ -20,4 +20,4 @@ Screenshot-to-web asks a model to generate a browser-openable artifact from a sc
 
 Earlier one-off screenshot-to-web passes should be read as capability signals, not reliability claims.
 
-In the task catalog this task is listed as `web005`.
+In the task catalog this task is listed as `web_005_vision_checkout_recreation`.

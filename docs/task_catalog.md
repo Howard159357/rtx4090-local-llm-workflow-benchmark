@@ -13,7 +13,7 @@ Some catalog fields remain partial in v1 because original run metadata was not r
 
 ## Task IDs And Names
 
-Each row has a short `task_id` and a readable `public_task_name`. The charts and documents use the readable names; for example, `web005` is the screenshot-to-web UI generation task.
+Each row has a short `task_id` and a readable `public_task_name`. The charts and documents use the readable names; for example, `web_005_vision_checkout_recreation` is the screenshot-to-web task.
 
 ## Provenance
 
