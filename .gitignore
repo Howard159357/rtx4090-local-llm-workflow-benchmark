@@ -30,7 +30,3 @@ Thumbs.db
 
 # Archives unless explicitly selected as release artifacts
 *.zip
-
-# Intermediate local publishing outputs
-linkedin_style_trials/
-external_llm_review_package*/

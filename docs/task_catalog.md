@@ -11,11 +11,9 @@ If a field could not be verified from the available public evidence, it is marke
 
 Some catalog fields remain partial in v1 because original run metadata was not recorded at that granularity.
 
-## Internal And Public Names
+## Task IDs And Names
 
-Some task IDs are internal identifiers. For public writing, use `public_task_name`.
-
-The internal task ID `web005` may appear in the catalog as an internal identifier. In public narrative, refer to it as a screenshot-to-web UI generation task.
+Each row has a short `task_id` and a readable `public_task_name`. The charts and documents use the readable names; for example, `web005` is the screenshot-to-web UI generation task.
 
 ## Provenance
 

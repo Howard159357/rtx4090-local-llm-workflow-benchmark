@@ -103,12 +103,6 @@ The six charts are embedded above; PNG and SVG versions are in [docs/assets/char
 | [05 Vision extraction vs generation](docs/assets/charts/05_vision_extraction_vs_generation_nvidia_accent_final.png) | Vision extraction separated from screenshot-to-web generation |
 | [06 Routing decisions](docs/assets/charts/06_role_based_decision_matrix_nvidia_accent_final.png) | Practical role-based routing decisions |
 
-This release supports the finalized three-post LinkedIn campaign:
-
-- Post 1, "Can One RTX 4090 Support a Practical Local AI Workflow?": Charts 01 and 03.
-- Post 2, "Pass Does Not Mean Usable": Charts 02 and 05.
-- Post 3, "How I Would Route My Local AI Stack Today": Charts 06 and 04.
-
 ## Evidence Index
 
 Start with:

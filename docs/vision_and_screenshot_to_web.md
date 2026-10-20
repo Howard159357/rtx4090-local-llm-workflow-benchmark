@@ -20,4 +20,4 @@ Screenshot-to-web asks a model to generate a browser-openable artifact from a sc
 
 Earlier one-off screenshot-to-web passes should be read as capability signals, not reliability claims.
 
-Use `screenshot-to-web task` in public narrative. Internal task IDs may appear only in task catalog or appendix tables.
+In the task catalog this task is listed as `web005`.
